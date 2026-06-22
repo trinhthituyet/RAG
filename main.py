@@ -28,7 +28,6 @@ def main() -> None:
     pipeline = build_pipeline()
     answer, chunks = pipeline.answer("Who won the IIOTY award?")
     print(answer)
-    print(chunks)
 
 
 if __name__ == "__main__":
